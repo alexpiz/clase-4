@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>forms</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<h1>Form Here</h1>
+			<h4>* required fields</h4>
+		</header>
+		<div class="content">
+			<form>
+				<ul>
+					<li>
+						<label for="name">Name:</label>
+						<input type="text" name="name"placeholder="placeholder text" value="" required>
+					</li>
+					<li>
+						<label for="lastname">Last name:</label>
+						<input type="text" name="lastname" placeholder="placeholder text" value="">
+					</li>
+					<li>
+						<label for="mail">Email:</label>
+						<input type="email" name="mail" placeholder="placeholder text" value="" required>
+					</li>
+					<li>
+						<label for="age">Age:</label>
+						<input type="number" name="age" maxlength="2" required>
+					</li>
+					<li>
+						<label for="web">Website:</label>
+						<input type="url" name="web" placeholder="placeholder text" value="" required>
+					</li>
+					<li>
+						<label for="message">Message:</label>
+						<textarea name="message" value="" placeholder="write your message"></textarea>
+					</li>
+						
+				</ul>
+				<fieldset>
+					<legend>Card details</legend>
+					<fieldset>
+						<legend>Card type</legend>
+							<ul class="card">
+								<li>
+									<label for="name">Name:</label>
+									<input type="text" name="name"placeholder="placeholder text" value="" required>
+								</li>
+								<li>
+									<label for="card-number">Card number:</label>
+									<input type="number" name="card-number" pattern="[0-9](16)" maxlength="16" required>
+								</li>
+								<li>
+									<label for="Security">Security code:</label>
+									<input type="number" name="security" pattern="[0-9](3)" maxlength="3" required>
+								</li>
+								<li>
+									<label for="expiry">Expiry date:</label>
+									<input type="month" name="expiry" value="" required>
+								</li>
+								
+							</ul>
+
+					</fieldset>
+				</fieldset>
+				<input class="buttom"  type="submit" name="button" value="Submit">
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>
