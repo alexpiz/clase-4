@@ -1,0 +1,36 @@
+*{
+	padding: 0;
+}
+h4	{
+	color: red;
+	border-bottom: #000 1px solid;
+}
+.container{
+	left: 20px;
+}
+input{
+	width: 200px;
+	height: 20px;
+	display: block;
+	margin-left: 200px;
+}
+textarea{
+	display: block;
+	margin-left: 200px;
+}
+li{
+	display: block;
+}
+.card{
+	margin-left: 20px;
+}
+.buttom{
+	margin-top: 20px;
+	width: 100px;
+	margin-left: 25rem;
+	background-color: lightgreen;
+	border: none;
+}
+fieldset{
+	margin: 20px 20px 20px 20px;
+}
